@@ -18,4 +18,5 @@ logging.basicConfig(
 
 )
 
-
+if __name__=="__nain__":
+    logging.info("Logging has started")
